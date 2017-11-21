@@ -1199,7 +1199,7 @@ nav {color: #fff;}
             width: 70%;
             height: 100%;
             padding-top: 70px;
-            display: -webkit-box;
+            display: inline-table;
             right: 0;
             padding-left: 7%;
         }
