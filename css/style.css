@@ -1063,9 +1063,10 @@ nav {color: #fff;}
 
         .text-title .text-bottom {
             padding: 80px 0 80px 0;
-            text-transform: uppercase;
+            text-transform: none;
             font-weight: 100;
             color: #b71a2c;
+            font-size: 20px;
         }
 
         .text-title .description {
@@ -1493,7 +1494,6 @@ nav {color: #fff;}
         }
 
         .title-bottom {
-            margin-top: 20px;
             text-transform: uppercase;
             font-size: 16px;
         }
