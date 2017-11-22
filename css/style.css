@@ -368,6 +368,7 @@ nav {color: #fff;}
         .text p {
             font-size: 19px;
             line-height: 22px;
+            text-align: justify;
         }
 
         .img-mobile {
@@ -444,6 +445,7 @@ nav {color: #fff;}
         .text p {
             font-size: 21px;
             line-height: 23px;
+            text-align: justify;
         }
 
     }
@@ -610,6 +612,15 @@ nav {color: #fff;}
             font-weight: 100;
             padding: 20px 0;
             color: #b20a1d;
+            text-align: justify;
+        }
+
+        .text-title .text-bottom {
+            text-transform: none;
+            font-weight: 100;
+            color: #b71a2c;
+            font-size: 18px;
+            text-align: justify;
         }
 
         .text-title p {
@@ -617,6 +628,7 @@ nav {color: #fff;}
             font-size: 16px;
             padding-bottom: 20px;
             margin-bottom: 20px;
+            text-align: justify;
         }
 
         .text-title .description {
@@ -637,6 +649,7 @@ nav {color: #fff;}
             font-size: 2.5vh;
             margin-bottom: 40px;
             display: block;
+            text-align: center;
         }
 
         /*header*/
@@ -659,6 +672,7 @@ nav {color: #fff;}
             font-size: 16px;
             padding-bottom: 20px;
             margin-bottom: 20px;
+            text-align: justify;
         }
 
         .text-title .description {
@@ -1059,6 +1073,7 @@ nav {color: #fff;}
             font-weight: 100;
             font-size: 17px;
             margin-bottom: 60px;
+            text-align: justify;
         }  
 
         .text-title .text-bottom {
@@ -1224,6 +1239,7 @@ nav {color: #fff;}
             font-weight: 100;
             font-size: 18px;
             margin-bottom: 60px;
+            text-align: justify;
         }
 
         .image-three {
