@@ -343,7 +343,6 @@ h1, h2, p {color: #fff;}
             position:absolute;
             bottom:5px;
             left:-14px;
-            background:url(../images/carousel/carousel-effect-mobile.png) 0 0 no-repeat; /* imagem máscara */
             filter: blur(20px);
         }
 
@@ -427,7 +426,6 @@ h1, h2, p {color: #fff;}
             position:absolute;
             bottom:100px;
             left:8%;
-            background:url(../images/carousel/carousel-effect-mobile.png) 0 0 no-repeat; /* imagem máscara */
             filter: blur(20px);
         }
 
@@ -1259,7 +1257,6 @@ h1, h2, p {color: #fff;}
             position:absolute;
             bottom:100px;
             left:-5%;
-            background:url(../images/carousel/carousel-effect-web.png) 0 0 no-repeat; /* imagem máscara */
             filter: blur(50px);
         }
 
