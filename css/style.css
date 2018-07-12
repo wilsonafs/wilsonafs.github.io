@@ -300,12 +300,12 @@ nav {color: #fff;}
         /*header*/
         #header-orcamento {
             max-width: 100%;
-            content: url('../images/orcamento.png');
+            content: url('../images/orcamento/header-orcamento-mobile.png');
         }
 
         #header-cursos-workshop {
             max-width: 100%;
-            content: url('../images/teste.png');
+            content: url('../images/cursos-e-workshop/cursos-e-workshop-header-mobile.png');
         }
 
          #header-natal {
@@ -320,7 +320,7 @@ nav {color: #fff;}
 
         #about-header {
             max-width: 100%;
-            content: url('../images/about/about-header-mobile.png');
+            content: url('../images/poinsettia-3024434_640.png');
         }
         /*header*/
 
@@ -383,14 +383,14 @@ nav {color: #fff;}
     @media only screen and (min-width:768px) {
         /*header*/    
         #header-orcamento {
-            background-image: url('../images/orcamento.png');
+            background-image: url('../images/orcamento/header-orcamento-web.png');
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
         }
 
         #header-cursos-workshop {
-            background-image: url('../images/teste.png');
+            background-image: url('../images/cursos-e-workshop/cursos-e-workshop-header-web.png');
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
@@ -411,7 +411,7 @@ nav {color: #fff;}
         }
 
         #about-header {
-            background-image: url('../images/about/about-header-web.png');
+            background-image: url('../images/poinsettia-3024434_1920.png');
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
