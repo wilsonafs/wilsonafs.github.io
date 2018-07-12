@@ -8,10 +8,11 @@
          url('../fonts/DINPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/DINPro-Regular.svg#DINPro-Regular') format('svg'); /* Legacy iOS */}
 
-body {font-family: 'DINPro', Fallback, sans-serif;}
+body {font-family: 'DINPro', Fallback, sans-serif; background-color: #521c33;}
 a { color: inherit; } 
 nav {color: #fff;}
 .margin {margin: 0 12%;}
+h1, h2, p {color: #fff;}
 
 /*black top bar*/
  #black-top-bar {
