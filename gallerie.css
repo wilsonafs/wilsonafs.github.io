@@ -18,13 +18,11 @@ div.gallerie-loading {
 	min-width: 200px;
 	margin: 0px 10px;
 	vertical-align: bottom;
-	font-size: 20px;
 }
 
 .gallerie-text div {
 	width: 100%;
 	text-overflow: ellipsis;
-	margin-bottom: 5px;
 }
 
 /* Image Title Text */
@@ -39,9 +37,10 @@ div.gallerie-loading {
 
 /* Gallerie Controls */
 .gallerie-control {
-	font-size: 40px;
+	font-size: 30px;
 	min-width: 40px;
-	/*min-height: 40px;*/
+	min-height: 40px;
+	padding: 5px;
 	margin: 0px;
 	border: 2px solid transparent;
 	vertical-align: top;
@@ -83,7 +82,7 @@ div.gallerie-loading {
 	top: 0px;
 	width: 100%;
 	height: 100%;
-	background-color:#000;
+	background-color:rgba(0,0,0,0.9);
 	z-index: 1000;
 }
 
@@ -168,8 +167,8 @@ div.gallerie-loading {
 }
 
 .gallerie-thumbbox li {
-	/*width: 75px;*/
-	height: 90px;
+	width: 75px;
+	height: 75px;
 	display: inline-block;
 	text-align: center;
 	margin: 0px 10px 0px 10px;
