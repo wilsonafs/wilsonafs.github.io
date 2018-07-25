@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery.gallerie.js"></script>
+<link rel="stylesheet" type="text/css" href="gallerie.css"/>
+<link rel="stylesheet" type="text/css" href="gallerie-effects.css"/>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#gallery').gallerie();
+    $('.firstimg')[0].click();
+});
+</script>
+
+<style>
+	body {
+		background-color: black;
+	}
+	
+	#gallery {
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+</head>
+
+<body>
+<div id="gallery">
+<a class="firstimg" href="images/portfolio/vitrines-e-fachadas/IMG_1918.JPG"><img src="images/portfolio/vitrines-e-fachadas/IMG_1918.JPG"/></a>
+<a href="images/portfolio/vitrines-e-fachadas/IMG_1919.JPG"><img src="images/portfolio/vitrines-e-fachadas/IMG_1919.JPG"/></a>
+</div>
+</body>
+</html>
