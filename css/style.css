@@ -1,18 +1,21 @@
 * {margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; list-style: none; text-decoration: none;}
 
 @font-face {
-    font-family: 'MyWebFont';
-    src: url('../fonts/DINPro-Regular.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/DINPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/DINPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/DINPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/DINPro-Regular.svg#DINPro-Regular') format('svg'); /* Legacy iOS */}
+    font-family: 'Century Gothic';
+    src: url('../fonts/cgothic.ttf')  format('truetype')} /* Safari, Android, iOS */
 
-body {font-family: 'DINPro', Fallback, sans-serif; background-color: #521c33;}
+
+body {font-family: 'Century Gothic', Fallback, sans-serif; background-color: #521c33;}
 a { color: inherit; } 
 nav {color: #fff;}
 .margin {margin: 0 12%;}
 h1, h2, p {color: #fff;}
+
+.about-sabrina-title {
+    color: #fff !important;
+    text-transform: none !important;
+    text-align: center;
+}
 
 /*black top bar*/
  #black-top-bar {
@@ -1595,4 +1598,6 @@ h1, h2, p {color: #fff;}
             padding-right: 15px;
             padding-bottom: 15px;
         }
+
+        
     }
