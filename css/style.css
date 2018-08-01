@@ -1436,6 +1436,12 @@ h1, h2, p {color: #fff;}
             padding-bottom: 30px;
             text-align: center;
         }
+        .album img {
+            float: left;
+            padding-bottom: 40px;
+            margin-left: 3%;
+        }
+
         /*images*/
 
         /*portfolio*/
