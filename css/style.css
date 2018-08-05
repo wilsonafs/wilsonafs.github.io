@@ -887,7 +887,7 @@ h1, h2, p {color: #fff;}
 
         .sobre-equipe {
             max-width: 100%;
-            content: url('../images/about/_MG_3175.jpg');
+            content: url('../images/about/about.jpg');
             padding: 20px 0 10px 0;
         }
 
@@ -1429,7 +1429,7 @@ h1, h2, p {color: #fff;}
         }
 
         #sobre-equipe {
-            background-image: url('../images/about/_MG_3175.jpg');
+            background-image: url('../images/about/about.jpg');
             background-repeat: no-repeat;
             background-size: 50%;
             padding-bottom: 325px;
