@@ -17,6 +17,11 @@ h1, h2, p {color: #fff;}
     text-align: center;
 }
 
+.home-text {
+    padding-top: 10px;
+    text-align: left !important;
+}
+
 /*black top bar*/
  #black-top-bar {
     height: 40px;
