@@ -159,7 +159,12 @@ h1, h2, p {color: #fff;}
     position: relative;
     display: inline-block;
     max-width: none;
-    padding-top: 17px;
+}
+
+@media only screen and (min-width:1024px) {
+    .img-fill img {
+        padding-top: 17px;
+    }
 }
 
 *,
