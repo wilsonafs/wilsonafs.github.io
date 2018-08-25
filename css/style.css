@@ -401,6 +401,7 @@ h1, h2, p {color: #fff;}
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
+            margin-top: 17px;
         }
 
         #header-cursos-workshop {
@@ -408,6 +409,7 @@ h1, h2, p {color: #fff;}
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
+            margin-top: 17px;
         }
 
         #header-natal {
@@ -415,6 +417,7 @@ h1, h2, p {color: #fff;}
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
+            margin-top: 17px;
         }
 
         #header-eventos-diversos {
@@ -422,6 +425,7 @@ h1, h2, p {color: #fff;}
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
+            margin-top: 17px;
         }
 
         #about-header {
@@ -429,6 +433,7 @@ h1, h2, p {color: #fff;}
             background-repeat: no-repeat;
             background-size: 100%;
             padding: 12%;
+            margin-top: 17px;
         }
         /*header*/    
     }
