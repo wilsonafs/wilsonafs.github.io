@@ -1009,7 +1009,10 @@ h1, h2, p {color: #fff;}
             position: fixed;
             right: 0;
         }
+    }
 
+    .natal-title{
+        color: #fff;
     }
 
     @media only screen and (min-width:1024px) {
@@ -1109,11 +1112,6 @@ h1, h2, p {color: #fff;}
             margin-left: 4%;
             text-align: justify;
         }
-
-        .natal-title{
-            color: #fff;
-        }
-        
 
         .bloco-1 p{
             text-align: justify;
