@@ -451,6 +451,7 @@ h1, h2, p {color: #fff;}
            .back-logo {
             position: absolute;
             right: 200px !important;
+            display: none;
         }
 
         /*events*/
@@ -610,6 +611,7 @@ h1, h2, p {color: #fff;}
         .back-logo {
             position: absolute;
             right: 50px;
+            display: none;
         }
 
         .button  {
@@ -1089,7 +1091,7 @@ h1, h2, p {color: #fff;}
             font-weight: 100;
             color: #b71a2c;
         }
-
+        
         .text-title p {
             padding-top: 20px;
             font-weight: 100;
@@ -1294,6 +1296,7 @@ h1, h2, p {color: #fff;}
             position: absolute;
             left: 0;
             margin-left: 22%;
+            display: none;
         }
 
         /*events*/
@@ -1603,7 +1606,6 @@ h1, h2, p {color: #fff;}
         .button-orcamento {
             display: none;
         }
-
     }
 
     @media only screen and (min-width:1024px) and (max-width:1279px) {
@@ -1612,7 +1614,13 @@ h1, h2, p {color: #fff;}
             display: inline-block;
             padding-right: 15px;
             padding-bottom: 15px;
-        }
+        }   
+    }
 
-        
+    .text-high {
+        color: #fff !important;
+    }
+
+    .text-padding {
+        padding-top: 40px !important;
     }
