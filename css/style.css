@@ -397,42 +397,42 @@ h1, h2, p {color: #fff;}
     @media only screen and (min-width:768px) {
         /*header*/    
         #header-orcamento {
-            background-image: url('../images/orcamento/header-orcamento-web.png');
+            background-image: url('../images/fundo-orcamento.png');
             background-repeat: no-repeat;
             background-size: 100%;
-            padding: 12%;
+            padding: 20%;
             margin-top: 17px;
         }
 
         #header-cursos-workshop {
-            background-image: url('../images/cursos-e-workshop/cursos-e-workshop-header-web.png');
+            background-image: url('../images/fundo-cursos.png');
             background-repeat: no-repeat;
             background-size: 100%;
-            padding: 12%;
+            padding: 20%;
             margin-top: 17px;
         }
 
         #header-natal {
-            background-image: url('../images/natal/decoracao-de-natal-header-web.png');
+            background-image: url('../images/fundo-natal.png');
             background-repeat: no-repeat;
             background-size: 100%;
-            padding: 12%;
+            padding: 20%;
             margin-top: 17px;
         }
 
         #header-eventos-diversos {
-            background-image: url('../images/eventos-diversos/eventos-diversos-header-web.png');
+            background-image: url('../images/fundo-eventos.png');
             background-repeat: no-repeat;
             background-size: 100%;
-            padding: 12%;
+            padding: 20%;
             margin-top: 17px;
         }
 
         #about-header {
-            background-image: url('../images/poinsettia-3024434_1920.png');
+            background-image: url('../images/fundo-empresa.png');
             background-repeat: no-repeat;
             background-size: 100%;
-            padding: 12%;
+            padding: 20%;
             margin-top: 17px;
         }
         /*header*/    
