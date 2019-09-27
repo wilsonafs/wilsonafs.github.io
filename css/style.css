@@ -164,7 +164,8 @@
   
   .hero {
 	position: relative;
-	background: url(../nutrimaisclub/images/logo4.png) no-repeat center center fixed;
+	background: url(../images/fundo.png) no-repeat center center fixed;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
