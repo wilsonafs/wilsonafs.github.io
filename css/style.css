@@ -171,7 +171,7 @@
 	background-size: cover;
 	text-align: center;
 	color: #fff;
-	padding-top: 110px;
+	padding-top: 50%;
 	min-height: 500px;
 	letter-spacing: 2px;
 	font-family: "Montserrat", sans-serif;
@@ -194,9 +194,9 @@
 	width: 26px;
 	height: 46px;
 	border-radius: 13px;
-	border: 2px solid #e8f380;
+	border: 2px solid #233a03;
 	position: absolute;
-	bottom: 40px;
+	bottom: 100px;
 	position: absolute;
 	left: 50%;
 	margin-left: -26px;
@@ -204,11 +204,11 @@
   .mouse span {
 	display: block;
 	margin: 6px auto;
-	width: 2px;
-	height: 2px;
+	width: 4px;
+	height: 4px;
 	border-radius: 4px;
-	background: #e8f380;
-	border: 1px solid transparent;
+	background: #233a03;
+	border: 2px solid transparent;
 	-webkit-animation-duration: 1s;
 	animation-duration: 1s;
 	-webkit-animation-fill-mode: both;
