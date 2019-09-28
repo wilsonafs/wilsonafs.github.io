@@ -71,7 +71,7 @@
   @media only screen and (max-width: 766px) {
 	nav ul {
 	  padding-top: 10px;
-	  margin-bottom: 22px;
+	  margin-bottom: 10%;
 	  float: left;
 	  text-align: center;
 	  width: 100%;
@@ -82,10 +82,10 @@
 	margin-left: 35px;
 	line-height: 4.0;
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 767px) {
 	nav ul li {
 	  width: 100%;
-	  padding: 7px 0;
+	  padding: 5px 0;
 	  margin: 0;
 	}
   }
@@ -107,7 +107,7 @@
 	-moz-transition: all 200ms ease-in;
 	transition: all 200ms ease-in;
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 767px) {
 	.mobile-toggle {
 	  display: block;
 	}
