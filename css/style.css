@@ -15,7 +15,7 @@
 	top: -100px;
   }
   
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 767px) {
 	.main_h {
 	  padding-top: 7px;
 	}
@@ -23,6 +23,7 @@
   
   .open-nav {
 	max-height: 100% !important;
+	height: 100%;
   }
   .open-nav .mobile-toggle {
 	transform: rotate(-90deg);
@@ -68,7 +69,7 @@
 	text-align: right;
 	float: right;
   }
-  @media only screen and (max-width: 766px) {
+  @media only screen and (max-width: 767px) {
 	nav ul {
 	  padding-top: 10px;
 	  margin-bottom: 10%;
@@ -85,7 +86,7 @@
   @media only screen and (max-width: 767px) {
 	nav ul li {
 	  width: 100%;
-	  padding: 5px 0;
+	  padding: 4px 0;
 	  margin: 0;
 	}
   }
