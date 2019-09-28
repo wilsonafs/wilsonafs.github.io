@@ -176,6 +176,19 @@
 	letter-spacing: 2px;
 	font-family: "Montserrat", sans-serif;
   }
+
+  @media only screen and (max-width: 767px) {
+	.hero {
+		position: relative;
+		background: url(../images/logo5.png) no-repeat top center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: 100%;
+		padding-top: 125%;
+	  }
+  }
+
   .hero h1 {
 	font-size: 50px;
 	line-height: 1.3;
