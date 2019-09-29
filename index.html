@@ -91,11 +91,46 @@
         Obrigada pela decisão por uma vida mais saudável, será um prazer fazer parte disso! Seja bem-vindo(a)!</p>
 
         <h1 class="contato">Contato</h1>
+        
+        <!--form-->
+        <div>
+            <form action="send-mail.php" id="page_contact_form" method="post">
+                <input type="hidden" name="redirect" value="formulario_ok.html">
+                <ul class="page_contact_form">
+                    <li>
+                        <input id="cf1" placeholder="NOME" class="input-text" name="cf_name" type="text" required>
+                    </li>
+                    <li class="form-email">
+                        <input id="cf2" placeholder="E-MAIL" class="input-text" name="cf_email" type="email" required>
+                    </li>
+                    <li class="form-tel">
+                        <input id="cf3" maxlength="13" placeholder="TELEFONE" class="input-text" name="cf_telefone" type="text" required>
+                    </li>
+                    <li>
+                        <textarea id="cf7" placeholder="MENSAGEM" name="cf_msg" class="input-textarea" required></textarea>
+                    </li>
+                    <li id="cf_btn">
+                        <input class="input-button" value="ENVIAR" type="submit">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <!--form-->
+
         <p>Comercial@nutrimaisclub.com.br
-        Whatsapp 11 93213-6996
-        Instagram: @nutrimaisclub
-        Facebook: Nutrimaisclub</p>
+                Whatsapp 11 93213-6996
+                Instagram: @nutrimaisclub
+                Facebook: Nutrimaisclub</p>
     </div>
+
+    <div class="button-whats">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://api.whatsapp.com/send?phone=5511980408302&text=Gostaria de receber mais informações" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+    </div>
+
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/scroll-whats.js"></script>
 </body>
 </html>
