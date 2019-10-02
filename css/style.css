@@ -410,3 +410,9 @@
     float: none;
 	text-align: center;}
 }
+
+#instagram, #facebook {
+	display: inline;
+}
+
+
