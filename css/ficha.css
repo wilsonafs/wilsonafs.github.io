@@ -957,6 +957,7 @@ html, body {
       background: #fcfcfc;
       color: #111;
       cursor: default;
+      text-transform: uppercase;
   }
   
   .wizard > .steps .done a,
@@ -977,7 +978,6 @@ html, body {
   
   .wizard > .content
   {
-      background: #eee;
       display: block;
       margin: 0.5em;
       min-height: 35em;
@@ -1254,9 +1254,9 @@ html, body {
   }
   
   #contact {
-    background: #F9F9F9;
-    padding: 25px; 
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 20px; 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
+    border: 1px solid #43A047;
   }
   
   #contact h3 {
@@ -1287,10 +1287,14 @@ html, body {
   #contact input[type="url"],
   #contact textarea {
     width: 100%;
-    border: 1px solid #ccc;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
+    border: 1px solid #dedede;
+    background: #fcfcfc;
+    margin: 0 0 15px;
+    color: #484848;
+    font-family: arial;
+    font-size: 12px;
+    padding: 5px;
+    height: 50px;
   }
   
   #contact input[type="text"]:hover,

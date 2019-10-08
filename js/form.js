@@ -23,6 +23,6 @@ form.children("div").steps({
     },
     onFinished: function (event, currentIndex)
     {
-        alert("Submitted!");
+        alert("Obrigada pela decisão por uma vida mais saudável, será um prazer fazer parte disso! Seja bem-vindo(a)!");
     }
 });
