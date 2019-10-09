@@ -984,6 +984,7 @@ html, body {
       overflow: hidden;
       position: relative;
       width: auto;
+      padding: 0;
   
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -1001,7 +1002,7 @@ html, body {
   .wizard > .content > .body
   {
       float: left;
-      width: 95%;
+      width: 100%;
       height: 95%;
       padding: 2.5%;
   }
@@ -1045,6 +1046,19 @@ html, body {
   {
       display: inline-block;
       margin-bottom: 0.5em;
+      width: 12%;
+  }
+
+  @media only screen and (max-width: 767px) { 
+    .wizard > .content > .body label
+    {
+        width: 100%;
+    }   
+  }
+
+  .termos
+  {
+      width: 75% !important;
   }
   
   .wizard > .content > .body label.error
@@ -1255,8 +1269,7 @@ html, body {
   
   #contact {
     padding: 20px; 
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.24);
-    border: 1px solid #43A047;
+    border: 1px solid #dedede;
   }
   
   #contact h3 {
@@ -1293,7 +1306,7 @@ html, body {
     color: #484848;
     font-family: arial;
     font-size: 12px;
-    padding: 5px;
+    padding: 10px;
     height: 50px;
   }
   
@@ -1377,6 +1390,5 @@ html, body {
   
   .container {
     
-      min-height: 100vh;
       padding-top: 3%;
   }
