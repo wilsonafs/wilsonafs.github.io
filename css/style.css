@@ -459,3 +459,8 @@ img {
 .fbox-desc {
 	text-align: center;
 }
+
+h3 {
+	color: #b34691;
+	padding: 20px 0 15px 0;
+}
