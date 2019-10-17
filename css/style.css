@@ -20,8 +20,8 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: inherit;
 	vertical-align: baseline;
+	font-family: 'Lato', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -178,7 +178,6 @@ table {
 		padding: 10px;
 		font-size: 15px;
 		color: #243b04;
-		font-family: Lato;
 	}
 
 	nav ul li a:hover,
@@ -370,13 +369,11 @@ nav ul li a {
 	text-transform: uppercase;
 	padding: 40px 0 20px 0;
 	font-size: 26px;
-	font-family: Lato;
 	font-weight: 400;
 }
 
 .text p {
 	padding: 5px 15px;
-	font-family: Lato;
 	font-weight: 300;
 	font-size: 18px;
 }
@@ -392,4 +389,73 @@ nav ul li a {
 		font-size: 26px;
 		font-weight: 300;
 	}
+}
+
+.container {
+	position: relative;
+}
+
+@media (min-width: 1200px) {
+	.container {
+   		max-width: 1170px;
+	}
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col_one_third {
+	display: block;
+    position: relative;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.col_one_third {
+	width: 33.3%;
+	padding: 1.5%
+}
+
+.feature-box.media-box {
+    padding: 0;	
+}	
+
+.fbox-media {
+	
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.fbox-media img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media (max-width: 767px) {
+	.col_one_third{
+	width: 100%;
+    margin-right: 0;
+    float: none;
+    margin-bottom: 50px !important;
+	}
+}
+
+.fbox-desc {
+	text-align: center;
 }
