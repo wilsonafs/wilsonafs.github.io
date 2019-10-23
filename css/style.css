@@ -496,6 +496,12 @@ h3 {
     margin-bottom: 40px;
 }
 
+@media only screen and (max-width: 1023px) {
+	#page_contact_form {
+		padding: 0 15px;
+	}
+}
+
 .page_contact_form li {
     float: left;
     margin-bottom: 20px;
@@ -520,7 +526,7 @@ h3 {
     width: 100%;
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (max-width: 1023px){
 	.form-email, .form-tel {
 		width: 50% !important;
 	}
@@ -562,3 +568,9 @@ h3 {
 #cf_btn {
 	float: right;
 }
+
+@media only screen and (max-width: 1023px){
+
+	#cf_btn, .icon {
+		width: 12% !important;
+    	padding-right: 5px;}}
