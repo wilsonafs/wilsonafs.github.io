@@ -554,3 +554,11 @@ h3 {
     background-color: #e6265c;
     color: #fff;
 }
+
+#cf_btn, .icon {
+	width: 4% !important;
+}
+
+#cf_btn {
+	float: right;
+}
