@@ -96,7 +96,6 @@ table {
 
 	nav ul li {
 		text-align: center;
-		text-transform: uppercase;
 	}
 
 	nav ul li a {
@@ -161,9 +160,11 @@ table {
 	}
 
 	.menu {
-		border-bottom: #243b04 solid 1px;
 		height: 84px;
 		position: relative;
+		box-shadow:  inset 0px -5px 9px -7px #243b04;
+		-webkit-box-shadow: inset 0px -5px 9px -7px #243b04;
+  		-moz-box-shadow: inset 0px -5px 9px -7px #243b04;	
 	}
 
 	.nav-list {
@@ -366,7 +367,6 @@ nav ul li a {
 .title-section {
 	text-align: center;
 	color: #243b04;
-	text-transform: uppercase;
 	padding: 80px 0 20px 0;
 	font-size: 26px;
 	font-weight: 400;
@@ -472,7 +472,7 @@ img {
 }
 
 h3 {
-	color: #b34691;
+	color: #e6265c;
 	padding: 20px 0 15px 0;
 }
 
@@ -484,4 +484,73 @@ h3 {
 	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-  }
+}
+
+#page_contact_form {
+	padding: 0 80px;
+}
+
+.page_contact_form {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.page_contact_form li {
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.page_contact_form li .input-text {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    border: 1px solid #dedede;
+    float: left;
+    background-color: #fcfcfc;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+.page_contact_form li {
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1024px){
+	.form-email, .form-tel {
+		width: 50% !important;
+	}
+	.form-email {
+		padding-right: 10px;
+	}
+}
+
+.page_contact_form textarea {
+    width: 100%;
+    height: 150px;
+    float: left;
+    border: 1px solid #dedede;
+    background-color: #fcfcfc;
+    color: #484848;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 10px;
+    font-size: 16px;
+}
+
+.input-button {
+    width: 90px;
+    height: 30px;
+    float: right;
+    border: 0px;
+    font-size: 16px;
+    background-color: #e6265c;
+    color: #fff;
+}

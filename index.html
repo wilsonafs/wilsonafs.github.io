@@ -28,7 +28,7 @@
                     <li><a href="#comofunciona">Como funciona</a></li>
                     <li><img class="img-logo" src="images/logo2.png" alt="Nutri Mais Club" width="180px"></li>
                     <li><a href="#">Planos</a></li>
-                    <li><a href="#">Club</a></li>
+                    <li><a href="#club">Club</a></li>
                     <li><a href="#">Gratidão</a></li>
                     <li><a href="#">Fale Conosco</a></li>
                 </ul>
@@ -125,10 +125,87 @@
         <div class="text">
             <p>Após selecionarmos os produtos considerando qualidade e responsabilidade de seus produtores, nós realizamos um criterioso processo de higienização, todos os nossos produtos passam por uma pré-lavagem, em seguida são todos imersos em tanque com água ozonizada, para eliminar quaisquer vírus, bactérias e eventuais resíduos de agrotóxicos.</p> 
                 
-        <p>Processo 60 vezes mais eficaz do que as higienizações feitas com produtos químicos.</p> 
-            
+            <p>Processo 60 vezes mais eficaz do que as higienizações feitas com produtos químicos.</p> 
+                
             <p>Em Seguida são embalados e selados utilizando produtos totalmente recicláveis, nossa responsabilidade com o meio ambiente não é esquecida.</p>
         </div>
+        
+        <div class="how-works">
+            <div>
+                <h3 class="subtitle">Plano</h3>
+                <p class="paragraph">Escolha seus planos</p>
+            </div>
+            
+            <div class="col_one_third nobottommargin paragraph">
+                <!-- <span class="badge">1</span> -->
+                <p>Frutas na empresa</p>
+            </div>
+
+            <div class="col_one_third nobottommargin paragraph">
+                <!-- <span class="badge">2</span> -->
+                <p>Frutas em casa</p>
+            </div>
+
+            <div class="col_one_third nobottommargin col_last paragraph">
+                <!-- <span class="badge">3</Sspan> -->
+                <p>Frutas e salada em casa</p>
+            </div>
+        </div>
+
+        
+        <div class="title-section">
+            <h2 class="title" id="club">Club</h2>
+            <hr class="style-border">
+        </div>
+    
+        <div class="text">
+            <p>A partir do momento que o colaborador entrar para nosso clube ele concorre em sorteios, campanhas e ações com descontos especiais como forma de incentivo a sua vida saudável e produtiva. Aqui ficam registradas as ações validas e divulgação dos premiados... acompanhem!</p>
+        </div>
+
+        <div class="title-section">
+            <h2 class="title" id="gratidao">Gratidão</h2>
+            <hr class="style-border">
+        </div>
+        
+        <div class="text">
+            <p>(De um lado 3 fotos minhas, criança, c filha e atual, do outro 3 fotos das crianças e do professor do projeto)
+
+                    Era uma vez uma menina chamada Priscila... desde pequena ela sabia que seria mãe de uma menina, trabalharia com alimentação e usaria seu trabalho para devolver ao mundo as oportunidades que recebeu durante toda sua vida. Ela sonhava em ser dona do seu próprio negócio, mas sabia que deveria antes de mais nada construir uma carreira cheia de estudo, experiencia e referências para estar pronta quando a hora chegasse. Por isso, apenas aos 39 anos, após 20 anos de carreira corporativa... ela sentiu que era a hora! E assim nasceu a Nutri+ Club, uma empresa sonhada para levar ao ambiente corporativo e familiar alimentos prontos para o consumo, com excelente qualidade, tratados com respeito e dedicação em todo processo até chegar ao consumidor, que certamente ficará satisfeito, saudável e feliz, tanto quanto nós!
+                    
+                    Em forma de gratidão as suas origens, a Priscila apoia o projeto social Escolinha de futebol V8, projeto dirigido pelo professor Roger, que dá aulas de esportes todo sábado a mais de 65 crianças, na querida Cohab 2 em Itaquera, onde ela passou 2/3 de sua vida, com suas mais simples e incríveis recordações infantis. Todo final de treino as crianças recebem frutas e uma boa dose de incentivo para não desistirem de seguir pelos caminhos do estudo, trabalho e dedicação e são incentivadas a sonhar, fugindo das estatísticas trágicas de periferia! É uma pratica constante e prazerosa de gratidão!</p>
+        </div>
+
+
+
+
+
+        <div class="title-section">
+                <h2 class="title" id="faleconosco">Fale Conosco</h2>
+                <hr class="style-border">
+            </div>
+            
+            <form action="send-mail.php" id="page_contact_form" method="post">
+                    <input type="hidden" name="redirect" value="mensagem-enviada.html">
+                    <ul class="page_contact_form">
+                        <li>
+                            <input id="cf1" placeholder="NOME" class="input-text" name="cf_name" type="text" required="">
+                        </li>
+                        <li class="form-email">
+                            <input id="cf2" placeholder="E-MAIL" class="input-text" name="cf_email" type="email" required="">
+                        </li>
+                        <li class="form-tel">
+                            <input id="cf3" maxlength="13" placeholder="TELEFONE" class="input-text" name="cf_telefone" type="text" required="">
+                        </li>
+                        <li>
+                            <textarea id="cf7" placeholder="MENSAGEM" name="cf_msg" class="input-textarea" required=""></textarea>
+                        </li>
+                        <li id="cf_btn">
+                            <a onclick="goog_report_conversion ('mensagem-enviada.html')" href="#" target="_blank"><input class="input-button" value="ENVIAR" type="submit"></a>
+                        </li>
+                    </ul>
+                </form>
+
+
 
 <script src="js/jquery.js"></script>
 <script src="js/menu-mobile.js"></script>
