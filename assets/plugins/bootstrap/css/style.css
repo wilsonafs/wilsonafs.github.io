@@ -6,3 +6,7 @@
 .first-item {
     padding-top: 65px !important;
 }
+
+.owl-stage .owl-item .active {
+    width: 180px !important;
+}

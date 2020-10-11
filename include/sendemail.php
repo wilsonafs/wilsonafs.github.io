@@ -8,8 +8,8 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'espacoclaudiaconstante@gmail.com', // Your Email Address
-				'name' => 'Espaço Claudia Constante' // Your Name
+				'email' => 'wilsonafs@hotmail.com', // Your Email Address
+				'name' => 'Formulário de Contato UnicaIP' // Your Name
 			);
 
 // Form Processing Messages
@@ -29,9 +29,13 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 		$name = isset( $_POST['template-contactform-name'] ) ? $_POST['template-contactform-name'] : '';
 		$email = isset( $_POST['template-contactform-email'] ) ? $_POST['template-contactform-email'] : '';
 		$phone = isset( $_POST['template-contactform-phone'] ) ? $_POST['template-contactform-phone'] : '';
-		$service = isset( $_POST['template-contactform-service'] ) ? $_POST['template-contactform-service'] : '';
-		$subject = isset( $_POST['template-contactform-subject'] ) ? $_POST['template-contactform-subject'] : '';
 		$message = isset( $_POST['template-contactform-message'] ) ? $_POST['template-contactform-message'] : '';
+		$operadora = isset( $_POST['template-contactform-operadora'] ) ? $_POST['template-contactform-operadora'] : '';
+		$faixa = isset( $_POST['template-contactform-faixa'] ) ? $_POST['template-contactform-faixa'] : '';
+
+		if ($faixa=="template-contactform-faixa") {
+			echo "<p>Minha faixa de ganho é de até 1500</p>";
+		}
 
 		$subject = $subject ? $subject : 'New Message From Contact Form';
 
@@ -50,10 +54,13 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$email = isset($email) ? "E-mail: $email<br><br>" : '';
 			$phone = isset($phone) ? "Telefone: $phone<br><br>" : '';
 			$message = isset($message) ? "Mensagem: $message<br><br>" : '';
+			$operadora = isset($operadora) ? "Operadora: $operadora<br><br>" : '';
+			$faixa = isset($faixa) ? "Faixa de ganho: $faixa<br><br>" : '';
+
 
 			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>Essa mensagem foi enviada pelo site: ' . $_SERVER['HTTP_REFERER'] : '';
 
-			$body = "$name $email $phone $service $message $referrer";
+			$body = "$name $email $phone $message $operadora $faixa $referrer";
 
 			// Runs only when File Field is present in the Contact Form
 			if ( isset( $_FILES['template-contactform-file'] ) && $_FILES['template-contactform-file']['error'] == UPLOAD_ERR_OK ) {
