@@ -68,7 +68,7 @@ label {
 }
 
 .form-control.c-square {
-    border-radius: 0 !important;
+    border-radius: 20px;
 }
 
 .form-control.c-border-2px {

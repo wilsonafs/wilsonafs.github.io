@@ -54,7 +54,7 @@
                 <!-- BEGIN: BRAND -->
                 <div class="c-navbar-wrapper clearfix">
                     <div class="c-brand c-pull-left">
-                        <a href="../corporate_1/index.html" class="c-logo">
+                        <a href="index.html" class="c-logo">
                             <img src="assets/base/img/layout/logos/logo-sem-fundo-branco.png" alt="UnicaIP" width="120px" class="c-desktop-logo">
                             <img src="assets/base/img/layout/logos/logo-sem-fundo-branco.png" alt="UnicaIP" width="120px" class="c-desktop-logo-inverse">
                             <img src="assets/base/img/layout/logos/logo-sem-fundo-branco.png" alt="UnicaIP" width="120px" class="c-mobile-logo">
@@ -238,44 +238,45 @@
                                     <div class="c-line-left"></div>
                                     <p class="c-font-lowercase">Entre em contato com um de nossos especialistas.</p>
                                 </div>
-                                <form action="#">
+                                <form id="page_contact_form" name="template-contactform" action="include/send-mail.php" method="post">
                                     <div class="form-group">
-                                        <input type="text" placeholder="Nome" class="form-control c-square c-theme input-lg" required>
+                                        <input type="text" placeholder="Nome"
+                                            class="form-control c-square c-theme input-lg" id="template-contactform-name" name="cf_name" required="">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" placeholder="E-mail" class="form-control c-square c-theme input-lg" required>
+                                        <input type="email" placeholder="E-mail"
+                                            class="form-control c-square c-theme input-lg field-email" name="cf_email" required="">
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" placeholder="Telefone" class="form-control c-square c-theme input-lg" required>
+                                        <input type="tel" placeholder="Telefone"
+                                            class="form-control c-square c-theme input-lg field-phone" name="cf_telefone" required="">
                                     </div>
-                                    <div class="form-group">
-                                        <h3>Gasto médio com telefonia</h3>
-                                        <input type="radio" id="primeiro" name="gasto" value="primeiro" checked>
-                                        <label for="primeiro">Até R$500,00</label><br>
-                                        <input type="radio" id="segundo" name="gasto" value="segundo">
-                                        <label for="segundo">Até R$1.000,00</label><br>
-                                        <input type="radio" id="terceiro" name="gasto" value="terceiro">
-                                        <label for="terceiro">Até R$1.500,00</label><br>
-                                        <input type="radio" id="quarto" name="gasto" value="quarto">
-                                        <label for="quarto">Acima de R$1.500,00</label><br>
-
+                                    <select class="form-control select-option" name="cf_servico">
+                                        <option disabled selected hidden>Gastos com Telefonia</option>
+                                        <option name="cf_1" value="Até R$500,00">Até R$500,00</option>
+                                        <option name="cf_2" value="Até R$1.000,00">Até R$1.000,00</option>
+                                        <option name="cf_3" value="Até R$1.500,00">Até R$1.500,00</option>
+                                        <option name="cf_4" value="Acima de R$1.500,00">Acima de R$1.500,00</option>
+                                    </select>
+                                    <div class="form-group select">
+                                        <input type="text" placeholder="Operadora de Telefonia Atual"
+                                            class="form-control c-square c-theme input-lg field-telefonia" name="cf_operadora" required="">
                                     </div>
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Operadora de Telefonia Atual" class="form-control c-square c-theme input-lg" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <h3>Utiliza PABX</h3>
-                                        <input type="radio" id="sim" name="pabx" value="sim" checked>
-                                        <label for="sim">Sim</label><br>
-                                        <input type="radio" id="nao" name="pabx" value="nao">
-                                        <label for="nao">Não</label><br>
-                                    </div>
+                                    <select class="form-control select-option-pabx" name="cf_pabx">
+                                        <option disabled selected hidden>Utiliza PABX</option>
+                                        <option name="cf_pabx_1" value="Sim">Sim</option>
+                                        <option name="cf_pabx_2" value="Não">Não</option>
+                                    </select>
 
                                     <div class="form-group">
-                                        <textarea rows="8" name="message" placeholder="Escreva seu comentário" class="form-control c-theme c-square input-lg"></textarea>
+                                        <textarea rows="8" name="cf_msg" placeholder="Escreva seu comentário"
+                                            class="form-control c-theme c-square input-lg"></textarea>
                                     </div>
-                                    <button type="submit" class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square" id="template-contactform-submit" name="template-contactform-submit">Enviar</button>
+                                    <button type="submit"
+                                        class="btn c-theme-btn c-btn-uppercase btn-lg c-btn-bold c-btn-square"
+                                        id="template-contactform-submit" name="template-contactform-submit" href="#" target="_blank">Enviar</button>
                         </form>
+
                     </div>
                 </div>
             </div>

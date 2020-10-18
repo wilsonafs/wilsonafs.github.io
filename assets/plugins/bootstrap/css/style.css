@@ -10,3 +10,29 @@
 .owl-stage .owl-item .active {
     width: 180px !important;
 }
+
+ul.list-inline.cards-chamada {
+    text-align: center;
+    margin: 0 auto !important;
+}
+
+.chamada {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.chamada p:hover {
+    text-decoration: underline;
+    color: #337ab7;
+}
+
+form .select-option,
+select.form-control.select-option-pabx {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 46px;
+}
+
+#template-contactform-submit {
+    border-radius: 20px;
+}
