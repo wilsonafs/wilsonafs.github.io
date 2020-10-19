@@ -36,3 +36,7 @@ select.form-control.select-option-pabx {
 #template-contactform-submit {
     border-radius: 20px;
 }
+
+.c-mobile-logo {
+    margin-top: -8px;
+}
