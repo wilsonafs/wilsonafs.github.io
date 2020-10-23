@@ -22,7 +22,7 @@ $(document).ready(function() {
             },
             arrows: {
                 style: "zeus",
-                enable: false,
+                enable: true,
                 hide_onmobile: true,
                 hide_under: 600,
                 hide_onleave: true,
@@ -43,7 +43,7 @@ $(document).ready(function() {
                 }
             },
             bullets: {
-                enable: false,
+                enable: true,
                 hide_onmobile: true,
                 hide_under: 600,
                 style: "metis",
