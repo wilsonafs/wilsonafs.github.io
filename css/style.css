@@ -439,7 +439,7 @@ body {
 .quadradinho {
     padding: 20px 20px;
     float: left;
-    width: 115px;
+    width: 170px;
     margin: 0 5px;
     font-size: 12px;
     text-align: center;
@@ -453,7 +453,7 @@ body {
 
 .bloquinho {
     margin-top: 10px;
-    height: 80px;
+    height: 140px;
 }
 
 div.tres {
