@@ -199,6 +199,47 @@ body {
     padding: 0 5%;
 }
 
+/* conceito */
+
+#conceito,
+#tabela {
+    margin-top: 100px;
+}
+
+#quadros {
+    margin-top: 80px;
+}
+
+.medium {
+    width: 15%;
+}
+
+.conceito p {
+    padding-bottom: 2%;
+    text-align: justify;
+}
+
+.conceito {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.texto-conceito p {
+    margin-top: 10px;
+}
+
+.texto-conceito p b {
+    font-weight: 600;
+}
+
+.p-content {
+    font-size: 18px;
+}
+
+/* preditores */
+
 .preditores {
     display: flex;
     justify-content: space-around;
