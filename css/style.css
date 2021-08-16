@@ -585,3 +585,138 @@ img.tabela-xs {
     padding: 0 5%;
     padding-bottom: 10px;
 }
+
+/* popup */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 50px auto;
+    padding: 5%;
+    background: #fff;
+    border-radius: 5px;
+    width: 75%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+
+@media only screen and (max-width:767px) {
+
+    .popup h2 {
+    font-size: 16px;
+    }
+}
+
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+
+
+@media only screen and (max-width:767px) {
+
+    #envia {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+.botoes {
+    padding-top: 2%;
+    text-align: center;
+}
+
+#popmake-wrap {
+    /* max-width: 600px; */
+    margin: 1em auto;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.scrollwrap {
+    position: relative;
+    max-height: 50vh;
+    height: 400px;
+    margin-bottom: 1.5em;
+}
+
+.popupscroll {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-right: 8px;
+    overflow-y: scroll;
+}
+
+.scrollwrap .popupscroll p {
+    line-height: 150%;
+    text-align: justify;
+}
+
+#habi {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:767px) {
+    .mainTerms h2 {
+        font-size: 100%;
+        padding: 10% 5% 5% 5%;
+    }
+    .referencias h5 {
+        font-size: 1.5rem;
+        padding: 5% 0;
+    }
+    .referencias {
+        font-size: 100%;
+    }
+}
+
+.pReferencias {
+    padding-bottom: 10px;
+    font-size: 80%;
+}

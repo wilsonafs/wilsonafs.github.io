@@ -210,7 +210,7 @@
         <p class="p-content text-center">Para acesso do conteúdo e do questionário de avaliação é necessário fazer o aceite
             do termo de consentimento abaixo:</p>
         <div class="text-center margin">
-            <a href="#" class="btn-term">Termo de Consentimento</a>
+            <a href="#popup1" class="btn-term">Termo de Consentimento</a>
         </div>
         <div class="term-image">
             <img src="images/para_o_video.svg" alt="veja o video" class="para_o_video">
@@ -237,5 +237,67 @@
                 10 fev. 2021. <a href="https://doi.org/10.1186/s12888-015-0417-x" target="_blank" rel="noopener noreferrer">https://doi.org/10.1186/s12888-015-0417-x</a></li>
         </ul>
     </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Termo de Consentimento Livre e Esclarecido (TCLE) </h2>
+            <a class="close" href="#">×</a>
+            <div id="popmake-wrap">
+                <div class="pum-content popmake-content">
+
+                    <div class="scrollwrap">
+                        <div class="popupscroll">
+                            <p>Você está sendo convidado para participar voluntariamente do estudo intitulado “Website informativo para abordagem de pessoas com agitação psicomotora com comportamento agressivo para técnico de enfermagem” desenvolvida pela
+                                mestranda Amanda Menon Pelissoni, sob a supervisão da Profa. Dra. Maria do Perpétuo S.S.Nóbrega. Para você decidir fazer parte dele, precisará saber no que consiste sua participação, bem como das possibilidades de riscos
+                                e benefícios.</p>
+
+                            <p>Se você tiver qualquer pergunta, após ou durante a leitura desse termo, por favor, sinta-se à vontade para entrar em contato com o pesquisador responsável pela condução da pesquisa.</p>
+                            <p>A decisão de fazer parte do estudo é voluntária e você pode recusar-se a participar ou retirar-se do estudo a qualquer momento sem nenhum tipo de consequência na sua relação profissional.</p>
+                            <p>O objetivo dessa pesquisa é desenvolver um website informativo sobre abordagem de pessoas com agitação psicomotora com comportamento agressivo para técnicos de enfermagem, avaliar a usabilidade, linguagem, orientação, informação,
+                                estrutura (design), e comunicação do website informativo.</p>
+                            <p>Sua participação implica em responder questões de avalição sobre o website, com tempo estimado de 40 minutos na ferramenta do Google Forms. O Sr(a) poderá sentir-se desconfortável durante a avaliação, uma vez que esta consta
+                                de 33 questões. Caso sinta-se cansado (a) durante esse processo, poderá interromper a avaliação e retomar em momento oportuno, uma vez que a ferramenta do Google forms está configurada para ser interrompida à qualquer momento
+                                e acessada posteriormente, sem que as respostas já preenchidas sejam perdidas, ou seja, ficarão armazenadas. Os dados coletados serão confidenciais e de uso apenas da pesquisadora, portanto em nenhum momento o Sr(a) será
+                                identificado (a), garantindo sua privacidade. </p>
+                            <p>Informo que a presente pesquisa poderá trazer riscos mínimos ao senhor (a), em sua dimensão psíquica, uma vez que, esta pesquisa pode lhe causar desconforto em decorrência do tempo exigido para a leitura e preenchimento do
+                                questionário. Caso, aconteça você poderá se retirar da pesquisa no momento que desejar e/ou interromper o preenchimento do questionário no Google forms.</p>
+                            <p>Os benefícios incluem contribuir para o aumento do conhecimento sobre o assunto estudado, aprimoramento das práticas profissionais de saúde mental e o contato com a tecnologia que poderá ser utilizada futuramente na prática
+                                do técnico de enfermagem.</p>
+                            <p>Sua participação é voluntária e você pode retirar seu consentimento ou ainda descontinuar sua participação em qualquer momento, se assim o preferir, sem penalização e/ou prejuízo de qualquer natureza. </p>
+                            <p>Não haverá nenhum custo a você proveniente deste estudo, assim como não haverá qualquer tipo de remuneração pela sua participação. Entretanto, se ocorrer qualquer gasto não previsto nesse termo, você será ressarcido. </p>
+                            <p>Ao aceitar participar o(a) Sr(a) mantém seus direitos legais, incluindo o direito de buscar indenização em caso de dano decorrente de sua participação.</p>
+                            <p>Se for de seu interesse, você poderá solicitar, a qualquer momento, informações sobre os resultados realizados nesse estudo.</p>
+                            <p>Você será informado sobre os achados desse estudo, assim que as análises estiverem finalizadas.</p>
+                            <p>A equipe do estudo terá acesso a seus dados, no entanto, seu anonimato é garantido e possíveis publicações cientificas resultantes deste estudo não o (a) identificarão em nenhuma circunstância como participante. Os dados obtidos
+                                serão tratados sob estritas condições de confidencialidade.</p>
+                            <p>Em qualquer etapa da pesquisa o Sr(a) poderá entrar em contato com a pesquisadora responsável Mestranda Amanda Menon Pelissoni: Escola de Enfermagem da Universidade de São Paulo, Av. Dr. Enéas de Carvalho Aguiar, 419, Cerqueira
+                                César. CEP: 05.403-000 pelo e-mail: amanda.pelissoni@gmail.com. Caso tenha alguma dúvida sobre seus direitos como participante da pesquisa, entre em contato com o Comitê de Ética em Pesquisa (CEP) da Escola de Enfermagem
+                                da USP, cujo endereço é Av. Dr. Enéas de Carvalho Aguiar, 419, Cerqueira Cesar, São Paulo (SP), CEP: 05403-000, telefone: (11)3061-8858, e-mail: cepee@usp.br.</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-body">
+                        <form id="template-contactform" name="template-contactform" action="include/sendemail.php" method="POST">
+                            <p>
+                                Fui informado de todos os detalhes relacionados ao estudo ao qual serei submetido. Receberei uma via online deste Termo de Consentimento Livre e Esclarecido.<br>
+
+                            </p>
+                            <div class="botoes">
+                                <input type="button" class="btn-term" name="envia" id="envia" value="Aceito participar da pesquisa" onclick="assinar()">
+
+                                <input type="submit" class="btn-term closebtn" name="template-contactform-submit" id="envia" value="Não Aceito participar da pesquisa" onclick="reload()">
+                            </div>
+                        </form>
+                        <!-- fim do botão -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Main JS file -->
+    <script src="js/transition1.js"></script>
+    <script src="js/termsApproval.js"></script>
 </body>
 </html>
