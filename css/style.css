@@ -573,6 +573,15 @@ img.tabela-xs {
     display: inline-block;
 }
 
-.btn:hover {
+.btn-term:hover {
     background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    color: #fff;
+}
+
+/* referencias */
+
+.referencias li {
+    list-style: inside;
+    padding: 0 5%;
+    padding-bottom: 10px;
 }
