@@ -562,3 +562,17 @@ img.tabela-xs {
     margin-top: 35px;
     margin-bottom: 50px;
 }
+
+.btn-term {
+    color: #fff;
+    background-color: #057fd0 !important;
+    border-radius: 30px;
+    padding: 8px 30px;
+    font-size: 22px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+}
