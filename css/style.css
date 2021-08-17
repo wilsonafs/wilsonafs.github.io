@@ -720,3 +720,26 @@ img.tabela-xs {
     padding-bottom: 10px;
     font-size: 80%;
 }
+
+/* tutorial */
+
+.video {
+    width: 100%;
+    height: 541px;
+}
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 70%;
+    padding-top: 1.5%;
+}
+
+.formulario {
+    padding-top: 5%;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 150vh;
+}
