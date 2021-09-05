@@ -12,6 +12,10 @@ body {
     text-align: center;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .color-blue {
     color: #057fd0;
 }
@@ -287,54 +291,11 @@ body {
     -webkit-transform: skew(20deg);
     -moz-transform: skew(20deg);
     -o-transform: skew(20deg);
-    -webkit-box-shadow: 0px 12px 30px -6px rgba(41,41,41,0.25);
-    -moz-box-shadow: 0px 12px 30px -6px rgba(41,41,41,0.25);
-    box-shadow: 0px 12px 30px -6px rgba(41,41,41,0.25);
     top: 10px;
     left: 8px;
     text-align: center;
 }
-  
-#quadros .shape-1 .shape{
-    background: #e74c3c;
-}
-  
-#quadros .shape-1 .material-icons {
-    color: #e74c3c;
-}
-  
-#quadros .shape-2 .shape{
-    background: #34495e;
-}
-  
-#quadros .shape-2 .material-icons { 
-    color: #34495e;
-}
-  
-#quadros .shape-3 .shape {
-    background: #f39c12;
-}
-  
-#quadros .shape-3 .material-icons { 
-    color: #f39c12;
-}
-  
-#quadros .shape-4 .shape {
-    background: #3498db;
-}
-  
-#quadros .shape-4 .material-icons { 
-    color: #3498db;
-}
-
-#quadros .shape-5 .material-icons { 
-    color: #304d34;
-}
-
-#quadros .shape-5 .shape {
-    background: #304d34;
-}
-  
+   
 #quadros .number {
     -webkit-transform: skew(-20deg);
       -moz-transform: skew(-20deg);
@@ -561,6 +522,10 @@ img.tabela-xs {
     text-align: center;
     margin-top: 35px;
     margin-bottom: 50px;
+}
+
+.term-image img {
+    width: 50%;
 }
 
 .btn-term {
