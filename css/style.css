@@ -717,3 +717,10 @@ img.tabela-xs {
         margin: 0 10%;
     }
 }
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+    height: 9%;
+    width: 9%;
+}
