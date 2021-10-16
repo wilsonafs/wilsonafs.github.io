@@ -724,3 +724,53 @@ img.tabela-xs {
     height: 9%;
     width: 9%;
 }
+
+@media only screen and (max-width:768px) {
+    .conceito {
+        display: block;
+    }
+    .conceito img {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+    }
+    .col-web {
+        width: 100% !important;
+    }
+    #quadros .shape {
+        float: none;
+        margin: 0 auto;
+    }
+    .col-xs-offset-1 {
+        margin-bottom: 10px;
+    }
+    img.tabela-xs {
+        width: 40%;
+        margin: 0 auto;
+        display: block;
+    }
+    .symptoms h3 {
+        padding: 0;
+        text-indent: 0;
+    }
+    .symptoms-list {
+        display: block;
+    }
+    .symptoms-list img {
+        width: 40%;
+        height: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+    .symptoms-list .list li,
+    .symptoms-list .list p {
+        padding: 0 5%;
+    }
+    .symptoms-list .list li {
+        margin-bottom: 10px;
+    }
+    .symptoms-list .list p {
+        margin-top: 10px;
+        text-indent: 0;
+    }
+}
