@@ -774,3 +774,9 @@ img.tabela-xs {
         text-indent: 0;
     }
 }
+
+#author .autor a,
+#author .autor a:active,
+#author .autor a:visited {
+    color: #ff0000;
+}
